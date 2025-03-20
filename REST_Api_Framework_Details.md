@@ -29,7 +29,7 @@ Need to start swagger server before executing testcases.
 
 Ensure you have the following installed:
 
--   **Java 11+**
+-   **Java 23**
 
 -   **Maven**
 
@@ -42,9 +42,11 @@ Ensure you have the following installed:
 2.  Install dependencies:
 
 3.  Run tests:
+    Either hit play in TestRunner file or execute one by one in resources/features.
 
-4.  Generate Allure Report:\
-    > View the report in the browser:
+5.  Generate Allure Report:\
+    Allure report can be published my executing \"allure serve
+target/allure-results\"
 
 ## **Writing New Tests**
 
@@ -54,9 +56,16 @@ Ensure you have the following installed:
 
 -   Implement step definitions in stepdefinitions/StepDefinitions.java.
 
-## **More Info.** 
+## **Allure Report Results**
 
-All tests are passed before merging.
+![First image](AllureReport_SS/Dashboard.png)
 
-Allure report can be published my executing \"allure serve
-target/allure-results\"
+![First image](AllureReport_SS/Graph.png)
+
+![First image](AllureReport_SS/Get.png)
+
+![First image](AllureReport_SS/Create.png)
+
+![First image](AllureReport_SS/update.png)
+
+![First image](AllureReport_SS/Delete.png)
