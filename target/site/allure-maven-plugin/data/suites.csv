@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 20 23:42:58 CET 2025","Thu Mar 20 23:42:59 CET 2025","1674","","Create a New Pet","","Create a new pet with valid data","","Create a new pet with valid data",""
+"passed","Thu Mar 20 23:42:54 CET 2025","Thu Mar 20 23:42:58 CET 2025","3844","","Get Pet Details","","Retrieve pet details by ID","","Retrieve pet details by ID",""
+"passed","Thu Mar 20 23:43:00 CET 2025","Thu Mar 20 23:43:01 CET 2025","622","","Delete Pet","","Delete a pet by ID","","Delete a pet by ID",""
+"passed","Thu Mar 20 23:42:59 CET 2025","Thu Mar 20 23:43:00 CET 2025","675","","Update Pet Details","","Update pet details with valid data","","Update pet details with valid data",""

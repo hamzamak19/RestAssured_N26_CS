@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Get Pet Details",
+    "children" : [ {
+      "name" : "Retrieve pet details by ID",
+      "uid" : "232ed66cd72dcd60",
+      "parentUid" : "c176e688294157416230ee51ff6b7765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742510574240,
+        "stop" : 1742510578084,
+        "duration" : 3844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c176e688294157416230ee51ff6b7765"
+  }, {
+    "name" : "Create a New Pet",
+    "children" : [ {
+      "name" : "Create a new pet with valid data",
+      "uid" : "9602e888a4846dfd",
+      "parentUid" : "7dd5ac56875901cdaa4bbfccb71df093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742510578112,
+        "stop" : 1742510579786,
+        "duration" : 1674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7dd5ac56875901cdaa4bbfccb71df093"
+  }, {
+    "name" : "Update Pet Details",
+    "children" : [ {
+      "name" : "Update pet details with valid data",
+      "uid" : "bed588ce8bdb295",
+      "parentUid" : "e031af08fdf109f2f693e8c80d5afe69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742510579835,
+        "stop" : 1742510580510,
+        "duration" : 675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e031af08fdf109f2f693e8c80d5afe69"
+  }, {
+    "name" : "Delete Pet",
+    "children" : [ {
+      "name" : "Delete a pet by ID",
+      "uid" : "ddeb9e6500664d1c",
+      "parentUid" : "20df7ec4ad229ace0561c44be24054fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742510580525,
+        "stop" : 1742510581147,
+        "duration" : 622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "20df7ec4ad229ace0561c44be24054fe"
+  } ]
+}

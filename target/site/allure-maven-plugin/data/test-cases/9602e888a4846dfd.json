@@ -1,0 +1,171 @@
+{
+  "uid" : "9602e888a4846dfd",
+  "name" : "Create a new pet with valid data",
+  "fullName" : "src/test/resources/features/b_post_pet.feature:3",
+  "historyId" : "c69f5e62d29f386db1d7e607221c4f81",
+  "time" : {
+    "start" : 1742510578112,
+    "stop" : 1742510579786,
+    "duration" : 1674
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.StepDefinitions.setup()",
+    "time" : {
+      "start" : 1742510578112,
+      "stop" : 1742510578112,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I send a POST request to \"pet\" with the following body:",
+      "time" : {
+        "start" : 1742510578113,
+        "stop" : 1742510578734,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1bf58cf5d0b90cd6",
+        "name" : "Request",
+        "source" : "1bf58cf5d0b90cd6.html",
+        "type" : "text/html",
+        "size" : 1240
+      }, {
+        "uid" : "25411b2bb1055a9f",
+        "name" : "Request",
+        "source" : "25411b2bb1055a9f.html",
+        "type" : "text/html",
+        "size" : 1240
+      }, {
+        "uid" : "e952c2b5e9fda7b0",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "e952c2b5e9fda7b0.html",
+        "type" : "text/html",
+        "size" : 1000
+      }, {
+        "uid" : "2925dcd305360a3",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "2925dcd305360a3.html",
+        "type" : "text/html",
+        "size" : 1000
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the response status code should be 200",
+      "time" : {
+        "start" : 1742510578734,
+        "stop" : 1742510578735,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And the response body should contain \"name\" with value \"MAK\"",
+      "time" : {
+        "start" : 1742510578735,
+        "stop" : 1742510579750,
+        "duration" : 1015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And the response body should contain \"category.name\" with value \"Human\"",
+      "time" : {
+        "start" : 1742510579751,
+        "stop" : 1742510579786,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "HAMZA-MAK"
+  }, {
+    "name" : "thread",
+    "value" : "11616@HAMZA-MAK.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create a New Pet"
+  }, {
+    "name" : "story",
+    "value" : "Create a new pet with valid data"
+  }, {
+    "name" : "suite",
+    "value" : "Create a New Pet"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a new pet with valid data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///D:/RestAssured_N26_CS/src/test/resources/features/b_post_pet.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.b_post_pet_feature.Create a New Pet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9602e888a4846dfd.json",
+  "parameterValues" : [ ]
+}

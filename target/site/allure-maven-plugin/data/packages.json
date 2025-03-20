@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.features",
+    "children" : [ {
+      "name" : "a_get_pet_feature.Get Pet Details",
+      "children" : [ {
+        "name" : "Retrieve pet details by ID",
+        "uid" : "232ed66cd72dcd60",
+        "parentUid" : "61ab915c607cbe93a6c36a09995c5af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510574240,
+          "stop" : 1742510578084,
+          "duration" : 3844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a_get_pet_feature.Get Pet Details"
+    }, {
+      "name" : "b_post_pet_feature.Create a New Pet",
+      "children" : [ {
+        "name" : "Create a new pet with valid data",
+        "uid" : "9602e888a4846dfd",
+        "parentUid" : "6fcbb5fa138cdfca554041e4e1d1a24b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510578112,
+          "stop" : 1742510579786,
+          "duration" : 1674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b_post_pet_feature.Create a New Pet"
+    }, {
+      "name" : "c_put_pet_feature.Update Pet Details",
+      "children" : [ {
+        "name" : "Update pet details with valid data",
+        "uid" : "bed588ce8bdb295",
+        "parentUid" : "356e655e79c42ac43cbb83cfe528ffd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510579835,
+          "stop" : 1742510580510,
+          "duration" : 675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c_put_pet_feature.Update Pet Details"
+    }, {
+      "name" : "d_delete_pet_feature.Delete Pet",
+      "children" : [ {
+        "name" : "Delete a pet by ID",
+        "uid" : "ddeb9e6500664d1c",
+        "parentUid" : "dbfbea58a6498450deb5474c9e937e32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510580525,
+          "stop" : 1742510581147,
+          "duration" : 622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d_delete_pet_feature.Delete Pet"
+    } ],
+    "uid" : "src.test.resources.features"
+  } ]
+}

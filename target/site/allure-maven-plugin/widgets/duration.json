@@ -1,0 +1,41 @@
+[ {
+  "uid" : "9602e888a4846dfd",
+  "name" : "Create a new pet with valid data",
+  "time" : {
+    "start" : 1742510578112,
+    "stop" : 1742510579786,
+    "duration" : 1674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "232ed66cd72dcd60",
+  "name" : "Retrieve pet details by ID",
+  "time" : {
+    "start" : 1742510574240,
+    "stop" : 1742510578084,
+    "duration" : 3844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddeb9e6500664d1c",
+  "name" : "Delete a pet by ID",
+  "time" : {
+    "start" : 1742510580525,
+    "stop" : 1742510581147,
+    "duration" : 622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bed588ce8bdb295",
+  "name" : "Update pet details with valid data",
+  "time" : {
+    "start" : 1742510579835,
+    "stop" : 1742510580510,
+    "duration" : 675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,156 @@
+{
+  "uid" : "232ed66cd72dcd60",
+  "name" : "Retrieve pet details by ID",
+  "fullName" : "src/test/resources/features/a_get_pet.feature:3",
+  "historyId" : "ff19100963f59b1231061f5ce5ecd590",
+  "time" : {
+    "start" : 1742510574240,
+    "stop" : 1742510578084,
+    "duration" : 3844
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepdefinitions.StepDefinitions.setup()",
+    "time" : {
+      "start" : 1742510574247,
+      "stop" : 1742510574846,
+      "duration" : 599
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I send a GET request to \"pet/10\"",
+      "time" : {
+        "start" : 1742510574967,
+        "stop" : 1742510578075,
+        "duration" : 3108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1837a99e25a5751",
+        "name" : "Request",
+        "source" : "a1837a99e25a5751.html",
+        "type" : "text/html",
+        "size" : 331
+      }, {
+        "uid" : "b6fec80cd568add7",
+        "name" : "Request",
+        "source" : "b6fec80cd568add7.html",
+        "type" : "text/html",
+        "size" : 331
+      }, {
+        "uid" : "41a1d6a86fcaa540",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "41a1d6a86fcaa540.html",
+        "type" : "text/html",
+        "size" : 1002
+      }, {
+        "uid" : "64afa0e3b740f808",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "64afa0e3b740f808.html",
+        "type" : "text/html",
+        "size" : 1002
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the response status code should be 200",
+      "time" : {
+        "start" : 1742510578076,
+        "stop" : 1742510578080,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And the response body should not be empty",
+      "time" : {
+        "start" : 1742510578080,
+        "stop" : 1742510578080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "HAMZA-MAK"
+  }, {
+    "name" : "thread",
+    "value" : "11616@HAMZA-MAK.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Get Pet Details"
+  }, {
+    "name" : "story",
+    "value" : "Retrieve pet details by ID"
+  }, {
+    "name" : "suite",
+    "value" : "Get Pet Details"
+  }, {
+    "name" : "testClass",
+    "value" : "Retrieve pet details by ID"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///D:/RestAssured_N26_CS/src/test/resources/features/a_get_pet.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.a_get_pet_feature.Get Pet Details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "232ed66cd72dcd60.json",
+  "parameterValues" : [ ]
+}

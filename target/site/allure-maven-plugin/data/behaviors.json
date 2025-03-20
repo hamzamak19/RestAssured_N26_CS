@@ -1,0 +1,89 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Get Pet Details",
+    "children" : [ {
+      "name" : "Retrieve pet details by ID",
+      "children" : [ {
+        "name" : "Retrieve pet details by ID",
+        "uid" : "232ed66cd72dcd60",
+        "parentUid" : "c353f9ecf870da5690eea6f847cd199d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510574240,
+          "stop" : 1742510578084,
+          "duration" : 3844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c353f9ecf870da5690eea6f847cd199d"
+    } ],
+    "uid" : "f99a23a31e8a3ebbf7e7243697f6daf1"
+  }, {
+    "name" : "Create a New Pet",
+    "children" : [ {
+      "name" : "Create a new pet with valid data",
+      "children" : [ {
+        "name" : "Create a new pet with valid data",
+        "uid" : "9602e888a4846dfd",
+        "parentUid" : "9d143be83d85a7b696251c2ddef36f80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510578112,
+          "stop" : 1742510579786,
+          "duration" : 1674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d143be83d85a7b696251c2ddef36f80"
+    } ],
+    "uid" : "0ba63fada2e0ea03cc76e94b8dbb7e5a"
+  }, {
+    "name" : "Update Pet Details",
+    "children" : [ {
+      "name" : "Update pet details with valid data",
+      "children" : [ {
+        "name" : "Update pet details with valid data",
+        "uid" : "bed588ce8bdb295",
+        "parentUid" : "1b56784928843d960569c8b3aee3d0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510579835,
+          "stop" : 1742510580510,
+          "duration" : 675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b56784928843d960569c8b3aee3d0cf"
+    } ],
+    "uid" : "b8d208982304a80619ad367faec1b9d6"
+  }, {
+    "name" : "Delete Pet",
+    "children" : [ {
+      "name" : "Delete a pet by ID",
+      "children" : [ {
+        "name" : "Delete a pet by ID",
+        "uid" : "ddeb9e6500664d1c",
+        "parentUid" : "80ec61027b318766b133588615b436d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742510580525,
+          "stop" : 1742510581147,
+          "duration" : 622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80ec61027b318766b133588615b436d8"
+    } ],
+    "uid" : "a5ee4a1ca5be7b78f99968434f2da9c6"
+  } ]
+}
