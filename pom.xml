@@ -18,7 +18,7 @@
         <cucumber.version>7.0.0</cucumber.version>
         <rest-assured.version>5.3.0</rest-assured.version>
         <junit.version>4.13.2</junit.version>
-        <allure-rest-assured.version>2.21.0</allure-rest-assured.version>
+        <allure-rest-assured.version>2.23.0</allure-rest-assured.version>
     </properties>
 
     <dependencies>
@@ -32,6 +32,12 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-rest-assured</artifactId>
+            <version>2.23.0</version> <!-- Latest version as of Oct 2023 -->
+            <!-- Remove <scope>test</scope> if your code is in src/main/java -->
         </dependency>
 
         <!-- Rest Assured Dependencies -->
@@ -82,12 +88,12 @@
 <!--        </dependency>-->
 
 
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-rest-assured</artifactId>
-            <version>2.23.0</version> <!-- Latest as of Oct 2023 -->
-            <!-- Remove <scope>test</scope> if your code is in src/main/java -->
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.qameta.allure</groupId>-->
+<!--            <artifactId>allure-rest-assured</artifactId>-->
+<!--            <version>2.23.0</version> &lt;!&ndash; Latest as of Oct 2023 &ndash;&gt;-->
+<!--            &lt;!&ndash; Remove <scope>test</scope> if your code is in src/main/java &ndash;&gt;-->
+<!--        </dependency>-->
 
 <!--        &lt;!&ndash; Allure for Cucumber &ndash;&gt;-->
 <!--        <dependency>-->
@@ -101,10 +107,17 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.32</version> <!-- Check for the latest version -->
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.2</version> <!-- Specify a stable version -->
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <!-- Maven Surefire Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -112,6 +125,13 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
+            </plugin>
+
+            <!-- Jetty Maven Plugin -->
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.43.v20210629</version>
             </plugin>
         </plugins>
     </build>
